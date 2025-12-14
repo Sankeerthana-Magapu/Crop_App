@@ -1,0 +1,10 @@
+
+## 7. Sample Dataset Structure
+
+Since you mentioned you have a dataset CSV file, here's the expected structure that the model is designed to work with:
+
+```csv
+farm_id,sensor_id,timestamp,region,crop_type,soil_moisture_%,soil_pH,temperature_C,rainfall_mm,humidity_%,sunlight_hours,irrigation_type,fertilizer_type,pesticide_usage_ml,Nitrogen_%,Phosphorous_%,crop_disease_status,planting_season,sowing_date,harvest_date,latitude,longitude,NDVI_index,total_days,yield_kg_per_hectare
+farm_001,sensor_001,2023-01-15 08:00:00,Khordha,Rice,25.5,6.8,28.5,150.2,75.3,7.2,Sprinkler,Inorganic,25.0,0.35,0.06,None,Monsoon,2023-06-15,2023-10-15,20.18,85.61,0.65,120,4200.5
+farm_002,sensor_002,2023-01-16 09:30:00,Cuttack,Wheat,22.3,7.1,25.8,120.5,68.7,6.8,Drip,Organic,18.5,0.28,0.05,Mild,Winter,2022-11-10,2023-03-15,20.46,85.88,0.62,125,3800.2
+... (more rows)
